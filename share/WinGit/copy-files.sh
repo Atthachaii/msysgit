@@ -77,7 +77,7 @@ then
 fi &&
 (cd $MSYSGITROOT/mingw && tar cf - \
 	bin/*{tcl,tk,wish,gpg,msmtp,curl.exe,*.crt}* bin/connect.exe \
-	bin/*{libcurl,libcrypto,libssl,libgsasl,libiconv}* \
+	bin/*{libcurl,libcrypto,libssl,libgsasl,libiconv,libintl-8}* \
 	bin/getcp.exe bin/rebase.exe \
 	bin/gzip.exe bin/gunzip.exe \
 	bin/{libpoppler-7.dll,pdfinfo.exe,pdftotext.exe} \
